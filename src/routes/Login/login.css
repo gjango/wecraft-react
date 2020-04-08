@@ -1,0 +1,26 @@
+.signInBtn:hover {
+  background-color: #39a2a9;
+  background-image: none !important; /* reset style from evergreen */
+}
+.signInBtn {
+  background-image: none !important; /* reset style from evergreen */
+  border-radius: 0.3rem;
+
+  border-color: #47bac1 !important;
+  background-color: #47bac1 !important;
+}
+.signUpBtn {
+  background-image: none !important; /* reset style from evergreen */
+
+  border-radius: 0.3rem !important;
+
+  background-color: #47c18b !important;
+  border-color: #47c18b !important;
+}
+.signUpBtn:hover {
+  color: #fff !important;
+
+  text-decoration: none !important;
+  background-color: #3cb27e !important;
+  background-image: none !important; /* reset style from evergreen */
+}
