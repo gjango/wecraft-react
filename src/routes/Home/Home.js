@@ -1,19 +1,12 @@
 import React from "react"
-import { Button, minorScale } from "evergreen-ui"
+import { Pane } from "evergreen-ui"
+import Header from "components/Header/Header"
 
 const Home = ({ history }) => {
   return (
-    <div>
-      <Button
-        appearance="primary"
-        intent="success"
-        height={minorScale(9)}
-        className="signInBtn"
-        onClick={() => history.push("/logout")}
-      >
-        Log Out
-      </Button>
-    </div>
+    <Pane height="100vh" width="100wh">
+      <Header />
+    </Pane>
   )
 }
 
