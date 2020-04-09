@@ -21,7 +21,7 @@ const authLink = new ApolloLink((operation, forward) => {
 })
 
 const httpLink = new HttpLink({
-  uri: process.env.API_URL || "https://localhost:3000/graphql"
+  uri: process.env.API_URL || "http://localhost:3000/graphql"
 })
 
 const client = new ApolloClient({
